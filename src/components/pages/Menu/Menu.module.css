@@ -1,0 +1,24 @@
+.page-top {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.preloader {
+   border: 8px solid #f3f3f3;
+  border-top: 8px solid orange;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  animation: spin 1s linear infinite;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

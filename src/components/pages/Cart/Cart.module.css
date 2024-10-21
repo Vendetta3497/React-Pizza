@@ -1,0 +1,55 @@
+.items {
+   margin-top: 100px;
+}
+
+.item {
+   display: flex;
+   justify-content: space-between;
+   max-width: 520px;
+   padding: 10px;
+}
+
+hr {
+   margin: 10px 0;
+   max-width: 520px;
+   text-align: start;
+   border: 1px solid #F1F2F3;
+}
+
+.no-items {
+   margin: 100px 0;
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.info {
+   font-weight: 500;
+   font-size: 18px;
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+
+.currency {
+   font-size: 20px;
+}
+
+
+.checkout {
+   margin-top: 100px;
+   max-width: 512px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.info-count {
+      width: 30px;
+      height: 30px;
+      background-color: var(--primary-color);
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+}

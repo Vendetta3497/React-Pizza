@@ -1,0 +1,20 @@
+.input {
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 400px;
+   color: var(--text-color);
+   box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25);
+   border-radius: 10px;
+   padding: 20px;
+   border: 1px solid rgba(238, 238, 238, 1);
+   min-width: 325px;
+}
+
+.input:focus {
+  outline: none; 
+  border: 2px solid var(--primary-color); 
+}
+
+.input::placeholder {
+   color: rgba(196, 196, 196, 1);
+}

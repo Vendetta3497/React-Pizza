@@ -1,0 +1,36 @@
+.title {
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.form {
+   margin-bottom: 75px;
+   text-align: center;
+}
+
+.input-wrapper {
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   margin-bottom: 30px;
+   gap: 5px;
+
+}
+
+.register-wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 3px;
+}
+
+.reg-link {
+   color: var(--primary-color);
+}
+
+.error {
+   color: red;
+   text-align: center;
+   margin-bottom: 30px;
+}

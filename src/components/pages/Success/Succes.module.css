@@ -1,0 +1,12 @@
+.succes {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.info {
+   font-size: 18px;
+   font-weight: 500;
+}
